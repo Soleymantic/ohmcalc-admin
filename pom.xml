@@ -11,7 +11,7 @@
 	<groupId>at.spengergasse</groupId>
 	<artifactId>ohmcalculator</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>ohmcalculator</name>
 	<description>Server-side application of ohm calculator</description>
 	<properties>
