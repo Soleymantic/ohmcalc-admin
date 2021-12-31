@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  mariadb:
+    image: mariadb:10.5.10
+    ports:
+      - 3306:3306
+    environment:
+      MARIADB_ROOT_PASSWORD: "ohmcalc"
+      MARIADB_DATABASE: "ohmcalc"
+      MARIADB_USER: "ohmcalc"
+      MARIADB_PASSWORD: "ohmcalc"
+    restart: always
+
